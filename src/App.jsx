@@ -29,7 +29,7 @@ function App() {
 			recorder.start();
 			setIsRecording(true);
 		} catch (err) {
-			console.error("Error accessing microphone:", err);
+			alert("Error accessing microphone:", err);
 		}
 	};
 
